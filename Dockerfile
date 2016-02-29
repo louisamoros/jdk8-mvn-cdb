@@ -7,4 +7,4 @@ RUN mkdir cdb
 WORKDIR /cdb
 
 ENTRYPOINT ["mvn"]
-CMD ["clean","install"]
+CMD ["clean","test"]

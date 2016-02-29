@@ -5,4 +5,4 @@ ENV MAVEN_HOME /usr/share/maven
 WORKDIR /cdb
 
 ENTRYPOINT ["mvn"]
-CMD ["clean","test"]
+CMD ["clean","package"]
